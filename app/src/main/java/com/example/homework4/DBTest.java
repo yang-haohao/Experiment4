@@ -63,7 +63,7 @@ public class DBTest extends AppCompatActivity {
                 DBTest.this,
                 arrayList,
                 R.layout.line,
-                new String[]{"news title","news content"},
+                new String[]{"news_title","news_content"},
                 new int[]{R.id.my_title,R.id.my_content}
         );
         listView.setAdapter(adapter);
